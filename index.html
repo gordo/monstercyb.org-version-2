@@ -30,8 +30,11 @@ input[type="image"] {float:left; cursor:pointer;}
 <!--[if lte IE 8]>
 <style type="text/css">#searchbar {line-height:41px;}</style>
 <![endif]-->
+<!--[if lte IE 7]>
+<style type="text/css">#searchbar {background-position:bottom right;}</style>
+<![endif]-->
 <!--[if lte IE 6]>
-<style type="text/css">form {clear:both; display:block; text-align:center; margin:0 auto; width:305px; height:41px;} #searchbar {float:left; background:transparent url(searchbar.png); background-repeat:no-repeat; width:150px; height:41px; border:0; padding:0 20px 0 50px; font-size:11pt;} #searchbutton {float:left; cursor:pointer;}</style>
+<style type="text/css">form {clear:both; display:block; text-align:center; margin:0 auto; width:305px; height:41px;} #searchbar {float:left; background:transparent url(searchbar.png) no-repeat bottom right; width:150px; height:41px; border:0; padding:0 20px 0 50px; font-size:11pt;} #searchbutton {float:left; cursor:pointer;}</style>
 <![endif]-->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
