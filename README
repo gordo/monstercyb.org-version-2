@@ -1,5 +1,7 @@
 2010 May 30. Monstercyb.org 2nd Edition.
-HTML5 structure. CSS 3 and CSS 2.1 selectors for character reactions.
+HTML5 structure. CSS 2.1 selectors for character reactions.
 Using pixel art with sticker effect in Photoshop.
-Tested as playing well in Safari, Chrome, Firefox, Camino*, Opera, IE8/7/6, MobileSafari (iPhone OS), webOS browser, (and likely on other mobile platforms to which I don't have access)
+Tested as playing well in Safari, Chrome, Firefox, Camino*, Opera, IE8/7/6, MobileSafari (iPhone OS), webOS, Android, (and likely on other mobile platforms to which I don't have access)
 * Camino search text input line-height rendering bug
+* IE 6/7 search text input issues with fixed backgrounds with long text (not using it for now); prefer not to use container as workaround, so background image will shift when text overflows
+* IE 6 doesn't support CSS adjacent selectors
