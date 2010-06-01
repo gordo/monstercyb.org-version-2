@@ -30,6 +30,9 @@ input[type="image"] {float:left; cursor:pointer;}
 <!--[if lte IE 8]>
 <style type="text/css">#searchbar {line-height:41px;}</style>
 <![endif]-->
+<!--[if lte IE 6]>
+<style type="text/css">form {clear:both; display:block; text-align:center; margin:0 auto; width:305px; height:41px;} #searchbar {float:left; background:transparent url(searchbar.png); background-repeat:no-repeat; width:150px; height:41px; border:0; padding:0 20px 0 50px; font-size:11pt;} #searchbutton {float:left; cursor:pointer;}</style>
+<![endif]-->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
@@ -54,7 +57,7 @@ input[type="image"] {float:left; cursor:pointer;}
 <input type="hidden" name="cof" value="FORID:9" />
 <input type="hidden" name="ie" value="UTF-8" />
 <input type="text" placeholder="Start typing..." value="" name="q" id="searchbar" />
-<input type="image" src="searchbutton.png" alt="Search" name="sa" title="Search search search!" />
+<input type="image" src="searchbutton.png" alt="Search" name="sa" id="searchbutton" title="Search search search!" />
 </form>
 </footer>
 
